@@ -1,11 +1,9 @@
   const Header = (props) => {
-    
   return(
     <div>
     <h1>{props.course}</h1>
     </div>
-  )
-
+    )
   }
 
   const Part = (props) => {
@@ -32,7 +30,6 @@
         <p>Number of exercises {props.exercises1 + props.exercises2 + props.exercises3}</p>
       </div>
     )
-
   }
 
   const App = () => {
