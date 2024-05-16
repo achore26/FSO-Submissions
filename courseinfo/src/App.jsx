@@ -39,7 +39,6 @@
   const App = () => {
     const course = {
     name:'Half Stack application development',
-
      parts:[
     {
       name: 'Fundamentals of React',
